@@ -1,0 +1,254 @@
+.header{background-image: url('./img/washi.png');}
+
+.header .logo{float: left;}
+.header .logo img{max-width:220px;padding-left: 10px;}
+.header .info{float: right;padding: 18px;}
+.header .info img{max-width:250px}
+
+.mainimg{width: 100%;position: relative; overflow: hidden;}
+.slider{margin-bottom: 40px;}
+
+.menu-wrap{margin:3px 0;
+    border-top:1px solid #cccccc; 
+    border-bottom:1px solid #cccccc;
+    padding:0px 8px;}
+
+.top-wedding{background-image: url('./img/wedding_bk.jpg');background-size:contain;}
+
+
+.btn-wedding,
+a.btn-wedding {
+  color: #fff;
+  background-color: #DC9492;
+}
+.btn-wedding:hover,
+a.btn-wedding:hover {
+  color: #fff;
+  background: #DB6B6B;
+}
+
+.btn-kaiseki,
+a.btn-kaiseki {
+  color: #fff;
+  background-color: #11186A;
+}
+.btn-kaiseki:hover,
+a.btn-kaiseki:hover {
+  color: #fff;
+  background: #4b4e70;
+}
+
+section.wedding, section.kaiseki {
+    padding: 0px 0;
+    background-image: url('./img/wedding_bk.jpg');background-size:contain;
+}
+section.kaiseki {
+	padding: 0px 0;
+    background-image: url('./img/kaiseki_bk.png');background-size:contain;
+}
+
+section.wedding .h_area, section.kaiseki .h_area {
+	width: 460px;
+}
+section.wedding .h_area h2, section.kaiseki .h_area h2 {
+	text-align: center;
+	margin: 50px 0 30px;
+	padding-bottom: 15px;
+	font-size: 8.5rem;
+	letter-spacing: 1rem;
+	line-height: 1;
+	position: relative;
+}
+section.wedding .h_area h2:after, section.kaiseki .h_area h2:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 40px;
+	height: 1px;
+	background-color: #000;
+	margin-left: -20px;
+}
+section.wedding .h_area h2 span, section.kaiseki .h_area h2 span {
+	font-size: 2rem;
+	letter-spacing: 0.2rem;
+}
+section.wedding .h_area h3, section.kaiseki .h_area h3 {
+	text-align: center;
+	margin: 30px 0 75px;
+}
+section.wedding .h_area p, section.kaiseki .h_area p {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+    font-size: 14px;
+
+}
+
+section.wedding .h_area {
+	float: right;
+	padding-top: 0;
+}
+section.kaiseki .h_area {
+	float: left;
+	padding-top: 0;
+}
+
+.infomation{
+	margin: 20px 0;
+	background: #FAF5E5;
+	padding: 20px;
+}
+.infomation .title-l{
+	font-size: 20px;
+}
+.topnews_list{
+	margin-top: 24px;
+}
+.topnews_list li{
+	padding:10px;
+	border-bottom: 2px #11186A solid;
+}
+.topnews_list a{
+	color: #11186A;
+	font-size: 18px;
+	font-weight: bold;
+}
+.topnews_list a span{
+	display: inline-block;
+	padding: 3px 8px;
+	background: #11186A;
+	color: #fff;
+	margin-right: 10px;
+	font-weight: normal;
+}
+.topnews_list a:hover{
+	color: #E00606;
+}
+
+.infomation .text{
+	margin: 10px 0;
+	background-color:#E00606;
+	color: #fff;
+	font-size: 1.8rem;
+	border: 8px double #fff;
+	padding: 10px;
+	line-height: 2.3rem;
+}
+.infomation .text[class*=blue]{
+	background-color:#0067c0;
+}
+
+
+
+.w-btn-wrap{text-align: center;padding: 50px 0;}
+@media screen and (max-width:820px) {
+	section.wedding .img_area, section.kaiseki .img_area {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:840px) {
+
+section.wedding, section.kaiseki {
+	width: 100%;
+	margin: 0 auto;
+	padding: 3% 0 0;
+}
+section.wedding .img_area, section.kaiseki .img_area {
+	text-align: center;
+}
+section.wedding .h_area, section.kaiseki .h_area {
+	float: none;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+section.wedding .h_area h2, section.kaiseki .h_area h2 {
+	font-size: 5.5rem;
+	margin: 0 auto;
+}
+section.wedding .h_area h2 span, section.kaiseki .h_area h2 span {
+	font-size: 1.5rem;
+}
+
+section.wedding .h_area h3, section.kaiseki .h_area h3 {
+	margin: 30px 0 0px;
+}
+section.wedding .h_area p, section.kaiseki .h_area p {
+	width: 100%;
+	padding: 10% 0;
+}
+
+section.wedding .h_area h2:after, section.kaiseki .h_area h2:after {
+	content:none;
+}
+.w-btn-wrap{text-align: center;padding: 20px 0;}
+}
+
+.bannur .text{
+	padding: 20px;
+	font-size: 1.8rem;
+	font-size: 1.8rem;
+	border: 8px double #fff;
+	padding: 10px;
+	line-height: 2.8rem;
+	background: #e9d38c;
+	margin-bottom: 20px;
+	max-width: 1000px;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+/*--menu---*/
+.top-menu{padding:0 20px 60px; background-image: url('./img/washi.png');}
+.menu-warp .thumb{height: 220px;}
+.menu-warp strong{display:inline-block;}
+.menu-warp .price{display: block; padding: 10px 0;font-size: 1.6rem;letter-spacing: 0.4rem;color:#E00606;font-weight: bold; width: 100%; text-align: right;}
+.menu-warp .price span{color:#000;font-size: 1.2rem;}
+.menu-warp .takeout{color:#006c9e; display: inline; float: right;}
+
+.btn-wrap{text-align: center;padding: 0px 0;}
+.menu-warp .txt{background-color: #FAF5E5;padding: 15px; border: 8px double #fff;margin:10px 0;line-height: 1.8rem;font-size: 1.4rem;}
+
+@media screen and (max-width: 767px){
+	.li-wapper{margin: 10px;}
+  .header .logo img{height: 40px;}
+  .header .info{padding:0 0 0 20px;}
+
+  .header .info img{height: 40px;}
+	.menu-warp .thumb{height: 150px;}
+
+}
+
+.modal{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.modal__bg{
+    background: rgba(0,0,0,0.8);
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+.modal__content{
+    background: #fff;
+    left: 50%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+	width: auto;
+}
+
+@media screen and (max-width: 767px){
+	.modal__content{
+		padding: 10px;
+		width: 90%;
+	}
+}
