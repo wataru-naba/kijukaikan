@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="./js/slick/slick-theme.css" media="all">
 <link rel="stylesheet" href="./css/font.css" media="all">
 <link rel="stylesheet" href="./css/style.css" media="all">
-<link rel="stylesheet" href="./css/common.css" media="all">
+<link rel="stylesheet" href="./css/common.css?<?= time()?>" media="all">
 <link rel="stylesheet" href="./css/sub.css" media="all">
 <link rel="stylesheet" href="./css/vender/lightbox/lightbox.css" media="all">
 <link rel="stylesheet" href="./css/vender/flexslider/flexslider.css" media="all">
@@ -34,19 +34,19 @@
             <a href="./"><img src="./images/logo.png" alt="喜重会館"></a>
         </div>
         <div class="info">
-            <a href=""><img src="./images/header_tel.png" alt="0982522670"></a>
+            <a href=""><img src="./images/info/tel.svg" alt="0982522670"></a>
         </div>
     </div>
     <nav class="nav">
         <ul class="clearfix">
             <li><a href="./">TOP</a>
-            <li><a href="./wedding.html">婚礼</a>
-            <li><a href="./kaiseki.html">宴会</a>
+            <li><a href="./wedding.php">婚礼</a>
+            <li><a href="./kaiseki.php">宴会</a>
             <li><a href="./iwaizen.php">祝膳</a>
             <li><a href="./butsuzen.php">仏膳</a>
             <li><a href="./sushi.php">オードブル・寿司</a>
             <li><a href="./takeout.php">弁当類</a>
-            <li><a href="./access.html">ご注文方法・配達エリア</a></li>
+            <li><a href="./access.php">ご注文方法・配達エリア</a></li>
         </ul>
     </nav>
     <div class="nav-button-wrap">

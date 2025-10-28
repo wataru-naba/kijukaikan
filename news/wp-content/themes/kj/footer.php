@@ -1,6 +1,4 @@
-<div class="footer-info">
-    <a href="tel:0982522670"><img src="./images/footer_tel.png" alt="ご連絡先"></a>
-</div>
+
 
 </div><!-- #page -->
 

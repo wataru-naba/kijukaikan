@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="./js/slick/slick-theme.css" media="all">
 <link rel="stylesheet" href="./css/font.css" media="all">
 <link rel="stylesheet" href="./css/style.css" media="all">
-<link rel="stylesheet" href="./css/common.css" media="all">
+<link rel="stylesheet" href="./css/common.css?<?= time()?>" media="all">
 <link rel="stylesheet" href="./css/sub.css" media="all">
 <link rel="stylesheet" href="./css/vender/lightbox/lightbox.css" media="all">
 <link rel="stylesheet" href="./css/vender/flexslider/flexslider.css" media="all">
@@ -25,39 +25,7 @@
 </head>
 
 <div id="menupage">
-<header class="header clearfix">
-    <div class="li-wapper">
-        <div class="logo">
-            <a href="./"><img src="./images/logo.png" alt="喜重会館"></a>
-        </div>
-        <div class="info">
-            <a href=""><img src="./images/header_tel.png" alt="0982522670"></a>
-        </div>
-    </div>
-    <nav class="nav">
-        <ul class="clearfix">
-            <li><a href="./">TOP</a>
-            <li><a href="./wedding.html">婚礼</a>
-            <li><a href="./kaiseki.html">宴会</a>
-            
-            <li><a href="./iwaizen.php">祝膳</a>
-            <li><a href="./butsuzen.php">仏膳</a>
-            <li><a href="./sushi.php">オードブル・寿司</a>
-            <li><a href="./takeout.php">弁当類</a>
-            <li><a href="./access.html">ご注文方法・配達エリア</a></li>
-
-
-        </ul>
-    </nav>
-    <div class="nav-button-wrap">
-        <div class="nav-button">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <strong>MENU</strong>
-    </div>
-</header>
+<?php include './inc/header.php';?>
 <h3 class="pagetitle">お弁当</h3>
 
 <div class="block m-t-40">
@@ -111,19 +79,11 @@
 </div><!--/.block-->
 
 
-<div class="footer-info">
-    <a href="tel:0982522670"><img src="./images/footer_tel.png" alt="ご連絡先"></a>
-</div>
+
 
 </div><!-- #page -->
 
-<footer>
-    <div class="txt">
-        喜重会館 0982-52-2670<br/>
-        〒883-0014 宮崎県日向市原町４丁目５−５
-    </div>
-    ©️ kijukaikan,co
-</footer>
+<?php include './inc/footer.php';?>
 
 <script src="./js/slick/slick.min.js"></script>
 <script src="./js/jquery.easing.1.3.js"></script>

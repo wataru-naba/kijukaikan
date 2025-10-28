@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="./js/slick/slick-theme.css" media="all">
 <link rel="stylesheet" href="./css/font.css" media="all">
 <link rel="stylesheet" href="./css/style.css" media="all">
-<link rel="stylesheet" href="./css/common.css" media="all">
+<link rel="stylesheet" href="./css/common.css?<?= time()?>" media="all">
 <link rel="stylesheet" href="./css/top.css?<?= time()?>" media="all">
 <link rel="stylesheet" href="./css/vender/lightbox/lightbox.css" media="all">
 <link rel="stylesheet" href="./css/vender/flexslider/flexslider.css" media="all">
@@ -33,7 +33,7 @@
             <a href="./"><img src="./images/logo.png" alt="喜重会館"></a>
         </div>
         <div class="info">
-            <a href=""><img src="./images/header_tel.png" alt="0982522670"></a>
+            <a href=""><img src="./images/info/tel.svg" alt="0982522670" width="200"></a>
         </div>
     </div>
 </header>
@@ -55,9 +55,9 @@
     <nav class="nav">
         <ul>
             <li><a href="./">TOP</a>
-            <li><a href="./osechi.php">おせち</a>
-            <li><a href="./wedding.html">婚礼</a>
-            <li><a href="./kaiseki.html">宴会</a>
+            <li><a href="./osechi2025.php">おせち</a>
+            <li><a href="./wedding.php">婚礼</a>
+            <li><a href="./kaiseki.php">宴会</a>
             <li><a href="./iwaizen.php">祝膳</a>
             <li><a href="./butsuzen.php">仏膳</a>
             <li><a href="./sushi.php">オードブル・寿司</a>
@@ -210,20 +210,12 @@
     </div>
 </div>
 
-<div class="footer-info">
-    <a href="tel:0982522670"><img src="./images/footer_tel.png" alt="ご連絡先"></a>
-</div>
+
 
 
 </div><!-- #page -->
 
-<footer>
-    <div class="txt">
-        喜重会館 tel.0982-52-2670<br/>
-        〒883-0014 宮崎県日向市原町４丁目５−５
-    </div>
-    ©️2020 kijukaikan.co
-</footer>
+<?php include './inc/footer.php';?>
 
 <div class="modal js-modal">
     <div class="modal__bg js-modal-close"></div>

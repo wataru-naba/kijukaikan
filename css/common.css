@@ -95,6 +95,16 @@ ul.disc{ margin:0 10px;
     
 .pc-only{display: block;}
 .sp-only{display: none }
+
+.footer-info{
+    padding:0px 20px 40px;
+    text-align: center;
+}
+.footer-info img{max-width: 450px;}
+.footer-info-link{position: relative;}
+.footer-info-link span{position: absolute; bottom: 15px; right: 110px;}
+
+
 @media screen and (max-width: 767px){
     
     .nav{margin: 0 auto; width: 100%;}
