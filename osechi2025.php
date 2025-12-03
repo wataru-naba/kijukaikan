@@ -36,7 +36,7 @@
         <div class="menu-txt m-b-10">
             クリスマス限定　にぎり盛り<br/>
             予約期限 ：<span style="font-weight: bold; color:#E00606;">12月15日迄</span><br/>
-            受取日：<span style="font-weight: bold; color:#E00606;">20・21・24・25日</span><br/>
+            受取日：<span style="font-weight: bold; color:#E00606;">21・24・25日</span><br/>
             <p class="pricedown">
                 <span class="before">5,400円</span>
                 <span class="after" >4,860円</span>
@@ -47,14 +47,15 @@
 </div>
 </div>
 
-<h3 class="pagetitle">2025年 おせち&オードブル １１月１日より受付開始</h3>
-<!--
+<h3 class="pagetitle">2025年 おせち&オードブル</h3>
+
 <div class="block m-t-40">
     <div class="contents">
        
         <div class="menu-txt m-b-10">
+            ・<span style="font-weight: bold; color:#E00606; font-size: 2.4rem;">受付開始は11月1日より</span><br/>
             ・お支払いは前受金になります。<span style="font-weight: bold; color:#E00606;">支払期日は12月25日までにお願いします。</span><br/>
-            ・当日（12/31）の受け渡し時間は<span style="font-weight: bold; color:#E00606;">10:00〜12:00まで</span>とさせていただきます。
+            ・当日（12/31）の受け渡し時間は<span style="font-weight: bold; color:#E00606;">11:00〜13:00まで</span>とさせていただきます。
         </div>
          
         
@@ -69,21 +70,44 @@
                 <div class="menu-txt m-b-10">
                     写真は一例になります。<br/>詳細はお問い合わせください。
                 </div>
-                <figure class="osechi-thumb"><img src="./images/osechi/2024/01.jpg"></figure>
+                
+                <figure class="osechi-thumb">
+                    <img src="./images/osechi/2025/osechi_ju.jpg">
+                    <figcaption style="font-size: 1.8rem; font-weight: bold; margin-top: 10px;">おせち重 21,600円(税込)</figcaption>
+                </figure>
            </div>
            <div>
                 <h3 class="pagetitle">おせちオードブル</h3>
                 <ul class="price-list">
-                    <li>10,800円</li>
-                    <li>17,280円</li>
-                    <li>21,600円</li>
-                    <li>27,000円</li>
-                    <li>32,400円</li>
+                    <li>おせち盛 11,880円</li>
+                    <li>おせち盛 17,280円</li>
+                    <li>おせち盛 21,600円</li>
+                    <li>おせち盛 27,000円</li>
+                    <li>おせち盛 32,400円</li>
                 </ul>
                 <div class="menu-txt m-b-10">
                     写真は一例になります。<br/>詳細はお問い合わせください。
                 </div>
-                <figure class="osechi-thumb"><img src="./images/osechi/2024/02.jpg"></figure>
+                <div class="tile a1-b1-c2 am40-bm40-cm30 m-t-20">
+                    
+                   
+                    
+                    <div class="menu-warp">
+                        <div class="thumb"><img src="./images/osechi/2025/osechi_11880.jpg"></div>
+                        <strong>おせち盛</strong>
+                        <div class="price">11,880円 (税込)</div>
+                    </div>
+                    <div class="menu-warp">
+                        <div class="thumb"><img src="./images/osechi/2025/osechi_17280.jpg"></div>
+                        <strong>おせち盛</strong>
+                        <div class="price">17,280円 (税込)</div>
+                    </div>
+                    <div class="menu-warp">
+                        <div class="thumb"><img src="./images/osechi/2025/osechi_21600.jpg"></div>
+                        <strong>おせち盛</strong>
+                        <div class="price">21,600円 (税込)</div>
+                    </div>
+                </div>
            </div>
            <div>
                 <h3 class="pagetitle">お寿司</h3>
@@ -92,10 +116,12 @@
                     <li><span>お寿司盛</span>5,400円</li>
                     <li><span>にぎり盛</span>5,400円</li>
                 </ul>
+                <!--
                 <div class="menu-txt m-b-10">
                     ※上記の商品には<span style="color:#E00606; font-weight: bold;">竹の子寿司は入りません</span><br/>
                     写真は一例になります。<br/>詳細はお問い合わせください。
                 </div>
+                
                 <div class="tile a1-b1-c2 am40-bm40-cm30 m-t-20">
                     
                     <div class="menu-warp">
@@ -115,6 +141,7 @@
                         <div class="price">5,400円 (税込)</div>
                     </div>
                 </div>
+                -->
            </div>
            <div>
                 <h3 class="pagetitle">年越しオードブル</h3>
@@ -125,8 +152,18 @@
                 <div class="menu-txt m-b-10">
                     写真は一例になります。<br/>詳細はお問い合わせください。
                 </div>
-                <figure class="osechi-thumb"><img src="./images/osechi/2024/06.jpg"></figure>
+                <div class="tile a1-b1-c2 am40-bm40-cm30 m-t-20">
+                    <div class="menu-warp">
+                        <div class="thumb"><img src="./images/osechi/2025/odoburu_5400.jpg"></div>
+                        <div class="price">5,400円 (税込)</div>
+                    </div>
+                    <div class="menu-warp">
+                        <div class="thumb"><img src="./images/osechi/2025/odoburu_11000.jpg"></div>
+                        <div class="price">10,800円 (税込)</div>
+                    </div>
+                </div>
            </div>
+           <!--
            <div>
                 <ul class="price-list">
                     <li><span>巻き寿司</span>350円</li>
@@ -140,11 +177,12 @@
                 </ul>
                 <p style="padding-left: 10px; color:#E00606; font-weight: bold; font-size: 1.9rem; letter-spacing: 0.1rem;">※竹の子寿司は1人 20コまでです。</p>
            </div>
+           -->
         </div>
 
     </div>
 </div>
- /.block-->
+<!--/.block-->
 
 
 

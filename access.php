@@ -32,7 +32,12 @@
         <p class="cp m-b-20"><b>配達は個数、予約状況によってお受け出来ない場合がございます。ご了承下さい。</b></p>
         <div class="step">
             <h4 class="title-s">1. ご注文</h4>
-            <p><a href="tel:0982522670"><img src="./images/footer_tel.png" alt="ご連絡先"></a></p>
+            <p>
+            <a href="tel:0982522670" class="footer-info-link">
+                <img src="./images/info/footer_tel.png" alt="ご連絡先">
+                <span class="footer-info-time">営業時間 8:00〜17:00</span>
+            </a>
+            </p>
             <p class="cp m-t-10">以下のご注文内容を承ります。</p>
             <ul class="disc m-t-10">
                 <li>お電話番号（当日ご連絡のつく携帯電話番号）</li>
@@ -87,11 +92,11 @@
                     </tr>
                     <tr>
                         <th>受付時間</th>
-                        <td>9:00〜19:00</td>
+                        <td>9:00〜17:00</td>
                     </tr>
                     <tr>
                         <th>営業時間・ 定休日</th>
-                        <td>9:00〜22:00<br/>・予約時間に応じる<br/>・日曜営業</td>
+                        <td>8:00〜17:00<br/>・予約時間に応じる<br/>・日曜営業</td>
                     </tr>
                 </table>
             </div>

@@ -10,7 +10,7 @@
     <nav class="nav">
         <ul class="clearfix">
             <li><a href="./">TOP</a>
-            
+            <li><a href="./osechi2025.php">おせち&オードブル</a>
             <li><a href="./wedding.php">婚礼</a>
             <li><a href="./kaiseki.php">宴会</a>
             <li><a href="./iwaizen.php">祝膳</a>
