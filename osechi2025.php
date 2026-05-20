@@ -55,7 +55,8 @@
         <div class="menu-txt m-b-10">
             ・<span style="font-weight: bold; color:#E00606; font-size: 2.4rem;">受付開始は11月1日より</span><br/>
             ・お支払いは前受金になります。<span style="font-weight: bold; color:#E00606;">支払期日は12月25日までにお願いします。</span><br/>
-            ・当日（12/31）の受け渡し時間は<span style="font-weight: bold; color:#E00606;">11:00〜13:00まで</span>とさせていただきます。
+            ・当日（12/31）の受け渡し時間は<span style="font-weight: bold; color:#E00606;">11:00〜13:00まで</span>とさせていただきます。<br/>
+            ・<span style="font-weight: bold; color:#E00606;"> 竹の子寿司 売り切れました</span>
         </div>
          
         
